@@ -107,3 +107,13 @@ Semua Menu Admin **+ Fungsi Tambahan**:
 - **Tersedia:** Untuk orders dengan status **PENDING**  
 - **Disabled:** Setelah 1 hari dari **created_date**  
 - **Pesan:**  
+
+### 2. FU TERKIRIM (Orders TERKIRIM)
+- **Tersedia:** Segera saat status menjadi **TERKIRIM**  
+- **Disabled:** Setelah 1 hari dari **complete_date**  
+- **Pesan:**  
+
+### 3. FU RO (Repeat Order)
+- **Tersedia:** ((QTY * 7) - 2) hari dari **complete_date**  
+- **Disabled:** Setelah 2 hari dari tanggal tersedia  
+- **Pesan:**
